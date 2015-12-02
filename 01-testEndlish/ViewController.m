@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *tableVIew;
 
 @end
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.tableVIew registerClass:<#(nullable Class)#> forHeaderFooterViewReuseIdentifier:<#(nonnull NSString *)#>]
+    
+    UITableViewHeaderFooterView;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					70414E391BC5FD6A009FF8F0 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = EPUU4MPFM7;
 					};
 					70414E521BC5FD6A009FF8F0 = {
 						CreatedOnToolsVersion = 7.0;
@@ -411,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "01-testEndlish/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-testEndlish";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "01-testEndlish/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-testEndlish";
 				PRODUCT_NAME = "$(TARGET_NAME)";
